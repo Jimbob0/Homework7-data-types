@@ -9,7 +9,7 @@
 		/*
 		* Exercise Two
 		* Why does the following output true?
-		Var a is a string and not a boolean. Therefore it is not one of the falsy inputs and it prints the last truthy statement is sees
+		Var a is a string, not the boolean false or the "" empty string. Therefore it is not one of the falsy values and it prints the last truthy statement it sees
 		*/
 
 		var a = "false";
@@ -20,7 +20,7 @@
 
 		/*
 		* Bonus Question: Why does (b && a) log "false"?
-		The string is still truthy and therefore prints the last statement, which is "false"
+		The string has no falsy statements and therefore prints the last statement, which is the string "false"
 		*/
 
 	</script>
